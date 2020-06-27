@@ -1,0 +1,32 @@
+.item:hover {
+  background-color: #dee2e6;
+}
+
+.actived {
+  background-color: #dee2e6;
+}
+
+.item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.item input {
+  margin-right: 5px;
+}
+.nextButton {
+  width: 15px;
+  height: 15px;
+}
+
+.noteName {
+  padding-left: 5px;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,33 @@
+.contentHeader {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #dee2e6;
+  justify-content: space-between;
+}
+
+.contentHeader .editButton {
+  font-weight: bold;
+  color: rgba(171, 113, 25, 1);
+  cursor: pointer;
+}
+
+.contentHeader .textHeader {
+  font-size: large;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 15px;
+  overflow: auto;
+  height: 80vh;
+  width: 100%;
+}
+
+textarea {
+  border-style: none;
+  border-color: Transparent;
+}
+
+textarea:focus {
+  outline: none;
+}

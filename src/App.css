@@ -1,0 +1,19 @@
+.App-logo {
+  height: 40px;
+  width: 40px;
+  margin: 15px;
+}
+
+.App-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.col-100vh {
+  height: 100vh;
+}
+
+.App-link {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
